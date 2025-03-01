@@ -1,0 +1,10 @@
+tensorflow==2.16.1
+matplotlib
+numpy
+opencv-python
+image-classifiers==1.0.0b1
+keras_applications
+keras_preprocessing
+keras_cv
+scikit-learn
+seaborn

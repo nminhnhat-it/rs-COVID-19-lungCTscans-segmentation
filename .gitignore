@@ -1,0 +1,64 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+virtualenv/
+ENV/
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# ML model training artifacts
+*.pth
+*.pt
+*.h5
+*.pickle
+*.pkl
+model_checkpoints/
+checkpoints/
+checkpoint/
+ckpt_dir/
+log/
+logs/
+log_dir/
+tensorboard/
+runs/
+
+# Datasets (large files not tracked in Git)
+*.zip
+dataset/
+data/
+*.csv
+*.npy
+*.npz
+*.tfrecord
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.out
+*.err
